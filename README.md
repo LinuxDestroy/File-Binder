@@ -12,3 +12,10 @@ pip install PyPDF2
 ```py
 python3 file.py /home/Desktop/malware.exe /home/Desktop/README.pdf -o /home/Desktop/MALICIOUSFILE.pdf
 ```
+Or save file with docx and jpg format
+
+```py
+python3 file.py /home/Desktop/malware.exe /home/Desktop/README.docx -o /home/Desktop/MALICIOUSFILE.docx -f docx
+```
+
+Enjoy !
