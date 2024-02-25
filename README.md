@@ -1,6 +1,6 @@
 # File-Binder
-File Binder for incorporated .exe in PDF, DOCX, JPG
-This Python script allows embedding an executable file in various file formats such as PDF, DOCX and JPG. The user can specify the path to the executable and the input file, and the script will create a new file with the executable embedded in the specified format.
+A Python script that embeds an executable file into a PDF using JavaScript.
+This Python script allows embedding an executable file (.exe) into a PDF file using JavaScript. The script uses the PyPDF2 and Pillow libraries for PDF and image manipulation, and the use of command line arguments is handled using the argparse library.
 
 ```py
  pip install python-docx
@@ -11,11 +11,6 @@ pip install PyPDF2
 
 ```py
 python3 file.py /home/Desktop/malware.exe /home/Desktop/README.pdf -o /home/Desktop/MALICIOUSFILE.pdf
-```
-Or save file with docx and jpg format
-
-```py
-python3 file.py /home/Desktop/malware.exe /home/Desktop/README.docx -o /home/Desktop/MALICIOUSFILE.docx -f docx
 ```
 
 Enjoy !
